@@ -2,9 +2,9 @@
 
 # Prachiti Kulkarni
 
-**Software & AI/ML Engineer** · M.S. Computer Engineering, NYU Tandon (May 2027)
+**Software & AI/ML Engineer — RAG, LLMs & Agentic AI**
 
-New York, NY · Open to relocation anywhere in the US
+M.S. Computer Engineering, NYU Tandon (May 2027) · New York, NY · Open to relocation anywhere in the US
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-prachiti22-24292f?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prachiti22)
 [![Email](https://img.shields.io/badge/Email-prachiti.kulkarni2015%40gmail.com-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:prachiti.kulkarni2015@gmail.com)
@@ -23,11 +23,16 @@ I build systems end to end, from the data pipeline and the model to the API and 
 
 ---
 
-### At a Glance
+### Technical Skills
 
-| ~10M | 83% | 500+ | 5 |
-|:---:|:---:|:---:|:---:|
-| taxi trips processed in under 3 minutes with PySpark | accuracy classifying lung cancer from CT scans | active users served by a team MLOps feature | weighted signals in an explainable course recommender |
+| Area | Tools |
+|---|---|
+| **Agentic AI & LLMs** | Agentic AI, multi-agent systems, tool calling, LangGraph, LangChain, RAG, Chroma vector DB, Ollama (Llama 3), OpenAI / Claude / Gemini APIs, fine-tuning (LoRA, PEFT), LLM evals, prompt engineering |
+| **ML & MLOps** | TensorFlow, PyTorch, Scikit-learn, OpenCV, CNNs, transfer learning, MLflow, DVC |
+| **Data & Pipelines** | Apache Spark (PySpark, Spark SQL, MLlib), Kafka, ETL, Pandas, PostgreSQL, MySQL, Matplotlib, Power BI |
+| **Languages** | Python, Java, C, C++, C#, JavaScript, TypeScript, SQL, PHP, HTML/CSS, Bash |
+| **Web & Backend** | React, Angular, Node.js, Express, FastAPI, Flask, Spring, REST APIs |
+| **Infrastructure** | Docker, Kubernetes, AWS, Terraform, GitHub Actions, CI/CD, Linux |
 
 ---
 
@@ -44,24 +49,6 @@ A candidate agent and a recruiter agent negotiate a salary, each knowing only it
 - Nash bargaining and Rubinstein benchmarks for a 4-setup 2x2 AI-adoption game
 - Next: Llama 3 runs (4 setups x 100 negotiations), bootstrap stability analysis, and a detector that flags agents revealing their private limits. Repository goes public in December 2026.
 
-<details>
-<summary><b>View architecture</b></summary>
-<br>
-
-```mermaid
-flowchart LR
-    S["Scenario<br/>private limits c and b"] --> C["Candidate agent<br/>knows c only"]
-    S --> R["Recruiter agent<br/>knows b only"]
-    C <-->|"offers (max 8, delta 0.95)"| R
-    C -.->|search| T[("RAG tool<br/>BLS OEWS wages<br/>Chroma")]
-    R -.->|search| T
-    C -->|"accept / walk away"| O["Outcome"]
-    R -->|"accept / walk away"| O
-    O --> B["Compared against<br/>Nash, Rubinstein,<br/>Chatterjee-Samuelson"]
-```
-
-</details>
-
 #### Vowel LMS · Explainable Course Recommendation Feature
 `PHP 8.4` `MySQL` `Joomla 5` `Python` · [Repository](https://github.com/Prachiti22/vowel-lms-course-recommendation-feature)
 
@@ -72,28 +59,6 @@ A deterministic recommendation engine added to a production Techjoomla LMS. It b
 - Cold-start learners are handled with an onboarding survey, then featured and popular courses
 - Six add-only SQL tables read existing LMS data without modifying it; API endpoints and event logging capture user interaction metrics
 - Python seed pipeline generates test data
-
-<details>
-<summary><b>View architecture</b></summary>
-<br>
-
-```mermaid
-flowchart LR
-    subgraph Signals
-        A["Skill gap · 0.35"]
-        B["Admin-curated · 0.30"]
-        C["Similarity · 0.20"]
-        D["Peer / group · 0.10"]
-        E["Trending · 0.05"]
-    end
-    Signals --> F["Weighted blend<br/>+ reason per course"]
-    Q["Onboarding survey"] -->|cold start| F
-    F --> G["HTTP API"] --> H["Learner widget"]
-    P["Admin panel"] --> B
-    K["CLI cron job"] --> E
-```
-
-</details>
 
 #### NYC Yellow Taxi Analysis & Demand Prediction
 `PySpark` `Spark SQL` `Spark MLlib` · [Repository](https://github.com/Prachiti22/Big-Data-Project)
@@ -132,19 +97,6 @@ Responsive 6-page website for a real estate firm in Pune, scoped directly with t
 | [Data Structures](https://github.com/Prachiti22/Data-Structure) | Implementations of core data structures | |
 
 </details>
-
----
-
-### Technical Skills
-
-| | |
-|---|---|
-| **LLMs & Agents** | LangGraph, LangChain, RAG, Chroma, Ollama (Llama 3), LLM APIs, prompt engineering |
-| **Machine Learning** | TensorFlow, PyTorch, Scikit-learn, OpenCV, CNNs, MLflow, DVC |
-| **Data** | Apache Spark (PySpark, Spark SQL, MLlib), Kafka, ETL, Pandas, Matplotlib, Power BI |
-| **Languages** | Python, Java, C, C++, C#, JavaScript, TypeScript, SQL, PHP, HTML/CSS, Bash |
-| **Web & Backend** | React, Angular, Node.js, Express, FastAPI, Flask, Spring, REST APIs |
-| **Data Stores & Infra** | PostgreSQL, MySQL, Docker, Kubernetes, AWS, Terraform, GitHub Actions, Linux |
 
 ---
 
