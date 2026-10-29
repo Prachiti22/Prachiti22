@@ -85,9 +85,7 @@ Team project adding ML-based transaction categorization to the open-source Firef
 
 Responsive 6-page website for a real estate firm in Pune, scoped directly with the owner.
 
-<details>
-<summary><b>More projects</b></summary>
-<br>
+#### More Projects
 
 | Project | Description | Stack |
 |---|---|---|
@@ -95,8 +93,6 @@ Responsive 6-page website for a real estate firm in Pune, scoped directly with t
 | [School Administration Program](https://github.com/Prachiti22/school-administration-program) | School management system for records and administration | Python |
 | [Finlatics Data Science](https://github.com/Prachiti22/Finlatics) | Notebooks from the Finlatics Data Science Program | Python, Jupyter |
 | [Data Structures](https://github.com/Prachiti22/Data-Structure) | Implementations of core data structures | |
-
-</details>
 
 ---
 
