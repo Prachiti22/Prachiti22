@@ -81,7 +81,7 @@ Transfer learning on CT scans comparing ResNet, InceptionV3 and NASNetMobile, re
 Team project adding ML-based transaction categorization to the open-source Firefly III finance app, served to 500+ active users. As Core Data Member I built a time-split preprocessing pipeline that prevents data leakage across 4.5M deduplicated, stratified records, and a feedback loop that logs user corrections and triggers weekly retraining.
 
 #### ALTTIORA · Real Estate Website
-`HTML` `CSS` `JavaScript` · [Live site](https://alttiora.netlify.app)
+`HTML` `CSS` `JavaScript` · [Repository](https://github.com/Prachiti22/alttiora-website) · [Live site](https://alttiora.netlify.app)
 
 Responsive 6-page website for a real estate firm in Pune, scoped directly with the owner.
 
